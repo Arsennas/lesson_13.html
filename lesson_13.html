@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font</title>
+    <script src="https://kit.fontawesome.com/d740c34394.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        @font-face {
+            font-family: 'Island Moments';
+            src: url('./IslandMoments-Regular.ttf');
+        }
+        h1 {
+            font-family: 'Island Moments', cursive;
+        }
+        .container {
+            height: 1080px;
+        }
+        .header {
+            background-image: url('./Rectangle\ 43.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 1080px;
+            position: relative;
+        }
+        .title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .title h1 {
+            font-weight: 400;
+            font-size: 250px;
+            line-height: 334px;
+        }
+        .title span {
+            position: absolute;
+            right: 0;
+            bottom: 30%;
+            font-size: 60px;
+            font-style: italic;
+        }
+        .navbar {
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu li {
+            margin-right: 20px;
+            display: inline-block;
+        }
+        .title-section h1 {
+            color: gold;
+            font-weight: 400;
+            font-size: 96px;
+            margin: 70px;
+        }
+        .image {
+            width: 500px;
+        }
+        .content .image {
+            position: absolute;
+            left: -280px;
+        }
+        .description{
+      position: absolute;
+      left: 47%;
+      text-align: start;
+flex-wrap: wrap;
+        }
+        .title-section2 h1 {
+            color: gold;
+            font-weight: 400;
+            font-size: 96px;
+            margin: 70px;
+        }
+        .content .image2 {
+            position: absolute;
+            right: -180px;
+        }
+        .description2{
+            position: absolute;
+            left: 12%;
+        }
+        .description2 b {
+            margin: 100px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        .description2 strong {
+            color: black;
+            font-size: larger;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .description2 button {
+            background-color: white;
+            margin: 40px;
+            transition: .5s;
+        }
+        .description2 button:hover {
+            background-color: blue;
+            color: white;
+        }
+        .title-section3 {
+            color: gold;
+            font-weight: 400;
+            font-size: 50px;
+            margin: 120px 100px;
+        }
+.content .image3{
+    position: absolute;
+    left: 7%;
+}
+        .description3{
+            position: absolute;
+            left: 47%;
+            gap: 10px;
+        }
+        .image4{
+            display: flex;
+            gap: 30px;
+        }
+        .image5{
+            display: flex;
+            gap: 30px;
+        }
+        .title-section4{
+            color: gold;
+            font-weight: 400;
+            font-size:50px;
+            margin: 100px;
+        }
+        .description4{
+     display: flex;
+     padding-bottom: 20px;
+        }
+        .help{
+            position: absolute;
+            left: 47%;
+        }
+        .ski{
+            position: absolute;
+            left: 2%;
+        }
+ .description5{
+  display: flex;
+  margin: 26px;
+ }
+ .title-section5{
+    color: gold;
+            font-weight: 400;
+            font-size:50px;
+            position: absolute;
+            left: 25%;
+            padding-top:250px ;
+            text-align: end;
+ }
+ .description7{
+    position: absolute;
+    left: 25%;
+    padding-top:370px;
+    text-align: end;
+}
+.description8{
+display: inline-block;
+}
+input{
+    border:2px solid gold;
+}
+.beti{
+    width: 170px;
+    background-color: yellow;
+    border: 2px solid gold;
+    transition: .5s;
+}
+.beti:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.description9{
+    position: absolute;
+    left: 47%;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.footer{
+    background-image: url(./Rectangle\ 42.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 1080px;
+    margin-top: 600px;
+}
+.title-section6{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 360px;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-75%);
+}
+.description13{
+    padding-top: 200px;
+    position: absolute;
+    left: 20%;
+}
+h3{
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+}
+.phone2{
+    display: inline-block;
+position: absolute;
+left: 25%;
+padding-top: 330px;
+color: gold;
+}
+.mail2{
+    position: absolute;
+    left: 23%;
+    padding-top: 390px;
+    color: gold;
+}
+.icons{
+    position: absolute;
+    left: 30%;
+    padding-top: 480px;
+    color: gold;
+}
+.contact{
+    font-size: 30px;
+    color: gold;
+    font-weight: 200;
+    position: absolute;
+    left: 27%;
+    padding-top: 220px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Маршрут</a></li>
+                        <li><a href="">Отель</a></li>
+                        <li><a href="">Стоимость</a></li>
+                    </ul>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="">+38(066)555-777-6</a>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <h1>Cappadacio</h1>
+                <span class="text">Эксклюзивный тур</span>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="title-section">
+                <h1>Fayre taile</h1>
+            </div>
+                <div class="content">
+                    <div class="image">
+                        <img src="./Rectangle 19.jpg" alt="">
+                    </div>
+                </div>
+                <div class="description">
+                        <p>
+                            <br>
+                            Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных дол ин и
+                            волшебных рассветов!
+                            Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же
+                            сделать миллион красивых фотографий!
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии!
+                            Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со
+                            всего мира!
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <strong>
+                            Также Вы увидите:
+                        </strong>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                            Музей на открытом воздухе в Гёреме
+                            Ущелье Ыхлара и монастырь Селиме
+                            Подземные города
+                            Крепость Учхисар
+                            Зельве и Пашабаг
+                            и многие другие достпримечательности.
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.
+                        <br>
+                        </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="title-section2">
+                <h1>Our Trip</h1>
+                <div class="content">
+                    <div class="image2">
+                        <img src="./Rectangle 22.png" alt="">
+                    </div>
+                </div>
+                <div class="description2">
+                    <b>
+                        <strong>
+                            День 1
+                        </strong>
+                        Прилёт в Анкару
+                        <br>
+                        Трансфер в Каппадокию
+                        <br>
+                        Солёное озеро
+                        <br>
+                        Приезд в Гёреме
+                        <br>
+                        Ужин
+                        <br>
+                        <strong>
+                            День 2
+                        </strong>
+                        Фотосессия
+                        <br>
+                        Завтрак в отеле
+                        <br>
+                        Дневной тур по Каппадокии
+                        <br>
+                        Закат с панорамным видом
+                        <br>
+                        <strong>
+                            День 3
+                        </strong>
+                        Полёт на воздушном шаре
+                        <br>
+                        Завтрак в отеле
+                        <br>
+                        Экскурсии на выбор
+                        <br>
+                        <strong>
+                            День 4
+                        </strong>
+                        Свободное время, шоппинг
+                        <br>
+                        Трансфер в Анкару
+                        <br>
+                        Вылет в Киев
+                        <br>
+                        <button>
+                            ЗАБРОНИРОВАТЬ
+                        </button>
+                    </b>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="title-section3">
+                <h1>Hotel</h1>
+               </div>
+                <div class="content">
+                    <div class="image3">
+                        <img src="./Rectangle 24.png" alt="">
+                    </div>
+               </div>
+            <div class="description3">
+                <i>
+                    В этом уникальном отеле, расположенном на вершине холма Айдынлы, вы можете забронировать
+                    высеченные в скале номера, обставленные антикварной мебелью со всей Турции. С солнечной
+                    террасы отеля открывается прекрасный панорамный вид на Национальный парк Гереме.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    Большинство номеров отеля Sultan Cave Suites высечены в скале, что обеспечивает прохладу
+                    и покой. Все номера оборудованы гостиной зоной и современной ванной комнатой.Вбольшинстве из них есть собственная терраса или балкон.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    Отель Cave Suites Sultan располагает изысканным рестораном, где подают фирменные блюда
+                    региона Каппадокии. После ужина, пройдя на террасу, вы сможете заказать напиток и
+                    полюбоваться закатом солнца над деревней.
+                    <br>
+                    <br>
+                    <br>
+                </i>
+                <div class="image4">
+                            <img src="./Rectangle 25.png" alt="">
+                            <img src="./Rectangle 26.png" alt="">
+                        </div>
+                        <br>
+                        <br>
+                            <div class="image5">
+                        <img src="./Rectangle 31.png" alt="">
+                        <img src="./Rectangle 32.png" alt="">
+                    </div>
+    </div>
+</div>
+    </section>
+    <section>
+        <div class="container">
+        <div class="title-section4">
+            <h1>Price</h1>
+            </div>
+            <div class="description4">
+                <br>
+                <h2 class="ski">Включено</h2>
+                <br>
+                <h2 class="help">Не Включено</h2>
+                <br>
+            </div>
+            <div class="description5">
+                <p>
+                    Проживание в двухместном номере в отеле с завтраками
+                    <br>
+                    Индивидуальный трансфер для нашей группы из Анкары и обратно
+                    <br>
+                    Экскурсия на Солёное озеро
+                    <br>
+                    Индивидуальная дневная экскурсия по лучшим местам Каппадокии с личным транспортом
+                    <br>
+                    Фотосессия с профессиональным фотографом для каждой участницы
+                    <br>
+(Несколько локаций, 5 лучших фото в обработке фотографа и весь материал (до 100 фотографий)
+<br>
+                </p>
+                <p>
+                    Авиа Киев-Анкара-Киев (140-170$)
+                    <br>
+                    Обеды и ужины (150$ на поездку)
+                    <br>
+                    Воздушный шар 200$
+                    <br>
+                    Дополнительные экскурсии (по желанию) от 30$
+                    <br>
+                </p>
+                <!-- <div class="description11">
+                    <img src="./kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 1.png" alt="">
+                </div>
+                <div class="description12">
+                    <img src="./kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 1.png" alt="">
+                    <img src="./kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 3.png" alt="">
+                </div> -->
+            </div>
+                <div class="description6">
+                    <div class="container">
+                    <div class="title-section5">
+                        <h1>1.07.2020</h1>
+                        <h1>490$</h1>
+                    </div>
+                <div class="description7">
+                    <p>Ближайшая дата тура</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Стоимость</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Оставить заявку или задать вопрос</p>
+                    <br>
+                    <br>
+                    <input placeholder="Имя" type="text">
+                    <br>
+                    <br>
+                    <input placeholder="Телефон" type="number">
+                    <br>
+                    <br>
+                    <button class="beti">Отправить</button>
+                </div>
+                <div class="description9">
+                <div class="image6">
+                    <img src="./Rectangle 55.png" alt="">
+                </div>
+            </div>
+            </div>
+                </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="title-section6">
+                <h1>Dreams come true</h1>
+            </div>
+            <div class="description13">
+            <img src="./kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92 2.png" alt="">
+        </div>
+        <div class="phone2">
+            <i class="fa-solid fa-phone"></i>
+            <h3>+38(066)555-777-6</h3>
+        </div>
+        <div class="mail2">
+           <i class="fa-regular fa-envelope"></i>
+           <h3>сappadocia.tours@gmail.com</h3>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        <div class="contact">
+            <h1>Contacts</h1>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
